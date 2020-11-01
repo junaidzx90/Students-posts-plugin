@@ -1,0 +1,97 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/* Custom css */
+/* Tabs */
+span.devjoos_notify {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    color: #828282;
+    font-size: 16px;
+}
+
+.tabs {
+    width: 100%;
+    background-color: transparent;
+}
+
+ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+ul#tabs-nav li {
+    /* padding: 14px 6px; */
+    font-size: 18px;
+    text-transform: initial;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#tabs-nav li a {
+    text-decoration: none;
+    color: rgb(4 115 170);
+    padding: 10px 26px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+ul#tabs-nav li:hover a,
+ul#tabs-nav li.active a {
+    border: 1px solid #ddd;
+    border-bottom: 1px solid transparent;
+    border-radius: 5px 5px 0px 0px;
+    opacity: 1;
+}
+
+.tab-content {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Inputs */
+.inp-des {
+    height: 36px !important;
+    font-size: 18px !important;
+    margin: 0px;
+    width: 27%;
+}
+
+.lab {
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+button.save-btn {
+    margin-top: 18px;
+    padding: 6px 20px;
+    background: #049dcf;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+button.save-btn:hover {
+    opacity: 1;
+}
+
+.warning {
+    display: none;
+}
